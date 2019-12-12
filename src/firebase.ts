@@ -3,13 +3,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const app = firebase.initializeApp({
-    apiKey: "AIzaSyCiVUuoJzaDZzTIw5sqLoy44dye-w_uGa0",
-    authDomain: "uvicphotographyexcursionclub.firebaseapp.com",
-    databaseURL: "https://uvicphotographyexcursionclub.firebaseio.com",
-    projectId: "uvicphotographyexcursionclub",
-    storageBucket: "uvicphotographyexcursionclub.appspot.com",
-    messagingSenderId: "292518241291",
-    appId: "1:292518241291:web:322ba7fd880d11e124530e",
+    apiKey: "AIzaSyCU_GRqWk0anLxlDNmUveQjHTV-rOk9ntk",
+  authDomain: "feedback-ux.firebaseapp.com",
+  databaseURL: "https://feedback-ux.firebaseio.com",
+  projectId: "feedback-ux",
+  storageBucket: "feedback-ux.appspot.com",
+  messagingSenderId: "954433460591",
+  appId: "1:954433460591:web:3e2e3a6310f34f9ce3b09a"
 });
 
 const db = firebase.firestore();
